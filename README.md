@@ -42,7 +42,7 @@ Here's some example code:
         <Scene className="eating">
           <SetLevel target="Room.kitchen Dimmer.overhead" value={30} />
           <SetLevel target="Room.kitchen Dimmer.counter" value={0} />
-          <SetLevel target="Room.dining Dimmer" value={0} />
+          <SetLevel target="Room.dining Dimmer" value={50} />
         </Scene>
       </Floor>
     )
